@@ -1,0 +1,54 @@
+.grid{
+  display: grid;
+  grid-template-columns: auto 227px 229px 225px 300px auto;
+  grid-template-rows: 121px 163px 340px 342px;
+  grid-gap: 10px;
+}
+
+.menu {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+
+.banner {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+
+.commando {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row: 3;
+}
+
+.max {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row: 3;
+}
+
+.binnen {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row: 3;
+}
+
+.griep{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row: 4;
+}
+
+.zon {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row: 4;
+}
+
+.schandaal{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row: 4;
+}
